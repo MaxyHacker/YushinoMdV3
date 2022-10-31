@@ -287,11 +287,11 @@ rows: [
 }, {
 title: `⃟⟣⟚⟝ ⟡ Support Me ${namebot} ⟡ ⟞⟚⟢⃟`,
 rows: [
-{title: `⟐ Donasi ⟐`, rowId: ".donasi", description: "Donasi Agar Saya Semangat Untuk Update Bot:)"},
-{title: `⟐ Sewa Bot ⟐`, rowId: ".sewa", description: "Mau Nyewa?"},
-{title: `⟐ Script ⟐`, rowId: ".sc", description: "Menampilkan Script Bot Ini"},
+{title: `⟐ Donasi ⟐`, rowId: ".donasi", description: "Donasi Alors que je suis ravi de mettre à jour les bots:)"},
+{title: `⟐ Sewa Bot ⟐`, rowId: ".sewa", description: "Voulez-vous louer?"},
+{title: `⟐ Script ⟐`, rowId: ".sc", description: "Affichage de ce script de bot"},
 ]}]
-let psan = 'bagaimana kabarmu?'
+let psan = 'Comment ça va?'
 let usrs = db.data.users[m.sender]
 let fkontak = { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(m.chat ? { remoteJid: `status@broadcast` } : {}) }, message: { 'contactMessage': { 'displayName': wm, 'vcard': `BEGIN:VCARD\nVERSION:3.0\nN:XL;${wm},;;;\nFN:${wm},\nitem1.TEL;waid=${m.sender.split('@')[0]}:${m.sender.split('@')[0]}\nitem1.X-ABLabell:Ponsel\nEND:VCARD`, 'jpegThumbnail': fs.readFileSync('./thumbnail.jpg'), thumbnail: fs.readFileSync('./thumbnail.jpg'),sendEphemeral: true}}}
 let tagnya = `@${m.sender.split`@`[0]}`
@@ -334,7 +334,7 @@ let con = `┏━━━━━━━━━━━━━━━━━━━┓
 ╰╴╴╴╳
 ▎▍▌▋▊▍▋▍▌▌▌▋▍▎▎▍▍▎▎▎▎▍
 ╭╴╴╼╳
-│◇ Aʟʟ Fɪᴛᴜʀ: ${totalf}
+│◇ Author : Maxii
 ╰╸╳`
 let hariRayaramadan = new Date('April 21, 2023 23:59:59') 
      let sekarangg = new Date().getTime() 
@@ -346,11 +346,11 @@ let hariRayaramadan = new Date('April 21, 2023 23:59:59')
 let tett = `▢ ▱▱▱ ▣► Dᴀᴛᴇ ◄▣ ▱▱▱ ▢ 
 ▯▷ *Uᴘᴛɪᴍᴇ* : ${mpt}
 ▯▷ *Tɪᴍᴇ* :  ${moment.tz('Asia/Jakarta').format('HH')} H${moment.tz('Asia/Jakarta').format('mm')} M${moment.tz('Asia/Jakarta').format('ss')} S
-▯▷ *Tᴀɴɢɢᴀʟ Isʟᴀᴍ* : ${dateIslamic}
+▯▷ *Date* : ${dateIslamic}
 ▢ ▱▱▱▱▱▱▱▱▱▱▱▱ ▢
 `
-let fot = `Nᴏᴛᴇ!! : Jɪᴋᴀ Aɴᴅᴀ Mᴇɴᴇᴍᴜᴋᴀɴ Bᴜɢ/Eʀʀᴏʀ 
-Bɪsᴀ Rᴇᴘᴏʀᴛ Dᴇɴɢᴀɴ Cᴀʀᴀ ▻ ketik #report 
+let fot = `siw ta jwenn on bug
+kontakte maxiii 
 `
 const listMessage = {
 text: tett,

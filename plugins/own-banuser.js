@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text }) => {
-    if (!text) throw 'Siapa yg mau dibanned?🗿'
+    if (!text) throw 'Qui veut être banni?🗿'
     let who
     if (m.isGroup) who = m.mentionedJid[0]
     else who = m.chat
